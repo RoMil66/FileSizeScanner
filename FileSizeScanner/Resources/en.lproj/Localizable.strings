@@ -1,0 +1,270 @@
+/* FileSizeScanner — English (Primary) */
+
+/* Tabs */
+"tab.overview" = "Overview";
+"tab.listView" = "List View";
+"tab.pieChart" = "Pie Chart";
+"tab.treemap" = "Treemap";
+"tab.fileTypes" = "File Types";
+"tab.largestFiles" = "Largest Files";
+
+/* Toolbar */
+"toolbar.home" = "Home";
+"toolbar.homeHelp" = "Return to start screen";
+"toolbar.back" = "Back";
+"toolbar.backHelp" = "Navigate to previous folder";
+"toolbar.forward" = "Forward";
+"toolbar.forwardHelp" = "Navigate to next folder";
+"toolbar.chooseFolder" = "Choose Folder";
+"toolbar.chooseFolderHelp" = "Choose a folder to analyze";
+"toolbar.rescan" = "Rescan";
+"toolbar.rescanHelp" = "Rescan the current folder";
+"toolbar.sort" = "Sort";
+"toolbar.sortHelp" = "Change the sort order of files and folders";
+"toolbar.view" = "View";
+"toolbar.viewHelp" = "Switch between visualization modes";
+"toolbar.darkMode" = "Dark Mode";
+"toolbar.darkModeHelp" = "Switch to Dark Mode";
+"toolbar.lightMode" = "Light Mode";
+"toolbar.lightModeHelp" = "Switch to Light Mode";
+"toolbar.fontSize" = "Font Size";
+"toolbar.fontSizeHelp" = "Increase or decrease the font size in the list view";
+"font.xsmall" = "Extra Small";
+"font.small" = "Small";
+"font.medium" = "Medium (Default)";
+"font.large" = "Large";
+"font.xlarge" = "Extra Large";
+
+/* Sort Options */
+"sort.size" = "Size";
+"sort.name" = "Name";
+"sort.fileCount" = "Files";
+"sort.modified" = "Modified";
+
+/* Scanning */
+"scan.scanning" = "Scanning files...";
+"scan.scanningCount" = "Scanning... %@ entries (%@)";
+"scan.scanningFolder" = "Scanning %@...";
+"scan.done" = "Done — %@ in %@";
+"scan.calculatingSizes" = "Calculating sizes...";
+"scan.error" = "Error: %@";
+"scan.folderError" = "Could not read folder";
+"scan.hint" = "Depending on disk size and number of files,\nscanning may take several minutes.";
+
+/* Status Bar */
+"status.files" = "%@ Files · %@ Folders";
+
+/* Empty States */
+"empty.noFolder" = "No Folder Selected";
+"empty.chooseFolder" = "Choose a folder to scan";
+"empty.chooseButton" = "Choose Folder";
+"empty.selectEntry" = "Select an entry from the list";
+"empty.noData" = "No data";
+
+/* Open Panel */
+"panel.message" = "Choose a folder to scan";
+"panel.prompt" = "Scan";
+
+/* Overview */
+"overview.contentBySize" = "Content by Size";
+"overview.contentByName" = "Content by Name";
+"overview.contentByFiles" = "Content by File Count";
+"overview.contentByDate" = "Content by Date Modified";
+"overview.disk" = "Disk";
+"overview.total" = "Total";
+"overview.used" = "Used";
+"overview.free" = "Free";
+"overview.scanned" = "Scanned";
+"overview.systemOther" = "System/TM/Other";
+"overview.unaccounted" = "~%@ used by system, TM snapshots, caches or without read access";
+"overview.view" = "View";
+
+/* Stats */
+"stat.size" = "Size";
+"stat.files" = "Files";
+"stat.folders" = "Folders";
+"stat.share" = "Share";
+
+/* List View */
+"list.size" = "Size";
+"list.name" = "Name";
+"list.bar" = "Bar";
+"list.files" = "Files";
+"list.folders" = "Folders";
+"list.modified" = "Date Modified";
+"list.needsFolder" = "List view requires a folder with content";
+
+/* Pie Chart */
+"pie.needsFolder" = "Pie chart requires a folder with content";
+"pie.other" = "Other (%d)";
+
+/* Treemap */
+"treemap.needsFolder" = "Treemap requires a folder with content";
+
+/* File Types */
+"fileTypes.title" = "File Types by Size";
+
+/* Context Menu */
+"context.revealFinder" = "Show in Finder";
+"context.moveToTrash" = "Move to Trash";
+"context.scanThisFolder" = "Scan this folder only";
+"context.openFolder" = "Open this folder";
+"context.deleteFailed" = "Delete failed: %@";
+
+/* Welcome Screen */
+"welcome.title" = "Analyze Storage";
+"welcome.subtitle" = "Choose a volume or folder\nto analyze disk space usage.";
+"welcome.volumes" = "VOLUMES";
+"welcome.quickAccess" = "QUICK ACCESS";
+"welcome.free" = "free";
+"welcome.home" = "Home";
+"welcome.desktop" = "Desktop";
+"welcome.downloads" = "Downloads";
+"welcome.documents" = "Documents";
+"welcome.browse" = "Choose Other Folder…";
+"welcome.resume" = "Back to Last Scan";
+
+/* Scan Warning */
+"scan.cancel" = "Cancel Scan";
+"scan.largeTitle" = "Large Scan Target";
+"scan.largeVolume" = "Volume \"%@\" · %@";
+"scan.largeMessage" = "Scanning may take several minutes depending on the number of files and folder size.";
+"scan.largeConfirm" = "Scan Anyway";
+"scan.largeCancel" = "Cancel";
+
+/* Edit Mode */
+"mode.readOnly" = "Read Only";
+"mode.edit" = "Edit";
+"mode.editWarning" = "Edit Mode";
+"mode.editWarningDetail" = "Files and folders can be deleted.";
+"mode.editModeOn" = "Enable Edit Mode — allows deleting files and folders";
+"mode.editModeOff" = "Disable Edit Mode — switch back to read-only";
+
+/* Delete Confirmation */
+"delete.confirmTitle" = "Move to Trash?";
+"delete.confirmMessage" = "\"%@\" (%@) will be moved to the Trash.";
+"delete.confirmButton" = "Move to Trash";
+"delete.cancel" = "Cancel";
+
+/* Folder Info */
+"folderInfo.canCleanUp" = "Can be cleaned up";
+
+/* Analyse Tab */
+"tab.analyse" = "Analysis";
+"analyse.diskUsage" = "Disk Usage";
+"analyse.cleanupTitle" = "Cleanup Candidates";
+"analyse.cleanable" = "cleanable";
+"analyse.topDirs" = "Largest Directories";
+"folderInfo.cautionDelete" = "Caution when deleting";
+
+/* Old / Stale Files */
+"analyse.oldFiles" = "Last Modified";
+"analyse.oldFilesHint" = "Largest files not modified for over 1 year";
+"analyse.age1to2" = "1–2 years";
+"analyse.age2to3" = "2–3 years";
+"analyse.age3to5" = "3–5 years";
+"analyse.age5plus" = "5+ years";
+"analyse.files" = "files";
+
+/* Purgeable Space */
+"overview.purgeable" = "Purgeable";
+"overview.purgeableHint" = "%@ can be reclaimed by macOS automatically";
+"overview.trulyFree" = "Truly Free";
+"analyse.purgeableTitle" = "Purgeable Space";
+"analyse.purgeableDesc" = "macOS reserves this space for APFS snapshots and caches. It is automatically reclaimed when the system needs more storage — you cannot delete it manually.";
+"purgeable.title" = "Purgeable Space";
+"purgeable.explanation" = "Free space already includes purgeable space. macOS can reclaim it automatically when needed — it is not additional free space on top of what is shown.";
+"purgeable.sources" = "PURGEABLE CONTENT INCLUDES";
+"purgeable.source1" = "APFS local Time Machine snapshots";
+"purgeable.source2" = "iCloud documents stored locally";
+"purgeable.source3" = "App caches and temporary files";
+"purgeable.source4" = "iOS device backups in iCloud";
+"purgeable.note" = "Purgeable space cannot be deleted manually. macOS manages it automatically.";
+
+/* File Detail */
+"detail.fileInfo" = "File Info";
+"detail.fileType" = "Type";
+"detail.exactSize" = "Size";
+"detail.onDisk" = "On Disk";
+"detail.created" = "Created";
+"detail.modified" = "Modified";
+"detail.accessed" = "Last Accessed";
+
+/* Volume / Disk Detail */
+"detail.volumeInfo" = "Volume Info";
+"detail.filesystem" = "File System";
+"detail.encrypted" = "Encrypted";
+"detail.journaled" = "Journaled";
+"detail.location" = "Location";
+"detail.internal" = "Internal";
+"detail.external" = "External";
+"detail.ejectable" = "Ejectable";
+"detail.yes" = "Yes";
+"detail.no" = "No";
+
+/* Welcome / Locked Disk */
+"welcome.locked" = "Locked";
+"welcome.lockedHint" = "This volume is encrypted or not accessible";
+"scan.volumeLocked" = "Volume is locked or encrypted — cannot be scanned";
+
+/* Context Menu */
+"context.diskInfo" = "Disk Info";
+
+/* Hidden Files Toolbar */
+"disk.layoutButton" = "Disk Layout";
+"disk.layoutButtonHelp" = "Show disk partitioning and volume layout";
+"disk.layoutTitle" = "Disk Layout";
+"disk.loading" = "Reading disk info…";
+"disk.internal" = "Internal";
+"disk.external" = "External";
+"disk.unmounted" = "Unmounted";
+"disk.colPartition" = "Partition";
+"disk.colName" = "Name";
+"disk.colType" = "Type";
+"disk.colSize" = "Size";
+"disk.noPartitionInfo" = "No partition table found — disk may be unformatted or not accessible";
+"disk.section.internal" = "Internal Disks";
+"disk.section.external" = "External Disks";
+"disk.section.images" = "Disk Images";
+"disk.context.revealImage" = "Reveal Disk Image in Finder";
+"disk.context.copyImagePath" = "Copy Image Path";
+"disk.context.revealVolume" = "Reveal Volume in Finder";
+"disk.context.openDiskUtility" = "Open in Disk Utility";
+"disk.context.eject" = "Eject";
+
+/* Permissions */
+"perm.bannerTitle" = "Full Disk Access Required";
+"perm.bannerText" = "Without Full Disk Access, system folders and other users' files cannot be scanned.";
+"perm.openSettings" = "Grant Access…";
+"perm.openSettingsHelp" = "Open System Settings › Privacy & Security › Full Disk Access";
+"perm.dismiss" = "Dismiss";
+"perm.step1" = "System Settings › Privacy & Security";
+"perm.step2" = "Full Disk Access";
+"perm.step3" = "Enable toggle for FileSizeScanner";
+
+"toolbar.hiddenOn" = "Hidden: On";
+"toolbar.hiddenOff" = "Hidden: Off";
+"toolbar.hiddenHelp" = "Show or hide files and folders starting with a dot (.)";
+
+"toolbar.cloudSkipOn" = "Cloud: Skip";
+"toolbar.cloudSkipOff" = "Cloud: Scan";
+"toolbar.cloudSkipHelp" = "Skip cloud storage folders (OneDrive, Dropbox, …) during scan to avoid triggering sync";
+"cloud.skipped" = "cloud – skipped";
+
+/* Age Filter */
+"analyse.filterActive" = "Filtered by age — tap bucket to change";
+"analyse.filterReset" = "Show All";
+"analyse.filterResults" = "%d files in this age range";
+
+/* Stale Files */
+"stale.oldest" = "Oldest first";
+"stale.newest" = "Newest first";
+"stale.sortBy" = "Sort:";
+"stale.nFiles" = "%d files";
+"stale.filtered" = "%d files · %@ reclaimable";
+"stale.total" = "%d files older than 1 year · %@ total";
+"stale.moreFiles" = "… and %d more files (scroll up to change filter)";
+"stale.empty" = "No files found in this age range";
+"stale.ageYears" = "%d yr ago";
+"stale.ageYearsMonths" = "%d yr %d mo ago";
+"stale.ageMonths" = "%d mo ago";

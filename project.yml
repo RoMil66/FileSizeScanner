@@ -1,0 +1,46 @@
+name: FileSizeScanner
+options:
+  bundleIdPrefix: at.milberger
+  deploymentTarget:
+    macOS: "14.0"
+  xcodeVersion: "16.0"
+  developmentLanguage: en
+  knownRegions:
+    - en
+    - de
+    - Base
+
+settings:
+  base:
+    MARKETING_VERSION: "1.1.0"
+    CURRENT_PROJECT_VERSION: "38"
+    DEVELOPMENT_TEAM: R8A4CFHL4Z
+    CODE_SIGN_STYLE: Automatic
+    SWIFT_VERSION: "5.9"
+
+targets:
+  FileSizeScanner:
+    type: application
+    platform: macOS
+    sources:
+      - path: FileSizeScanner
+        excludes:
+          - "**/.DS_Store"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: at.milberger.filesizescanner
+        PRODUCT_NAME: "FileSizeScanner"
+        CODE_SIGN_STYLE: Automatic
+        INFOPLIST_FILE: FileSizeScanner/Info.plist
+        CODE_SIGN_ENTITLEMENTS: FileSizeScanner/FileSizeScanner.entitlements
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ENABLE_HARDENED_RUNTIME: YES
+    info:
+      path: FileSizeScanner/Info.plist
+      properties:
+        CFBundleDisplayName: "FileSizeScanner"
+        CFBundleName: "FileSizeScanner"
+        CFBundleShortVersionString: "$(MARKETING_VERSION)"
+        CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
+        NSHumanReadableCopyright: "Copyright © 2026 Robert Milberger. All rights reserved."
+        LSApplicationCategoryType: "public.app-category.utilities"

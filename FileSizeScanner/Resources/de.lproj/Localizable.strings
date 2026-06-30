@@ -1,0 +1,270 @@
+/* FileSizeScanner — Deutsch */
+
+/* Tabs */
+"tab.overview" = "Übersicht";
+"tab.listView" = "Listenansicht";
+"tab.pieChart" = "Tortendiagramm";
+"tab.treemap" = "Treemap";
+"tab.fileTypes" = "Dateitypen";
+"tab.largestFiles" = "Größte Dateien";
+
+/* Toolbar */
+"toolbar.home" = "Start";
+"toolbar.homeHelp" = "Zum Startbildschirm zurückkehren";
+"toolbar.back" = "Zurück";
+"toolbar.backHelp" = "Zum vorherigen Ordner navigieren";
+"toolbar.forward" = "Vor";
+"toolbar.forwardHelp" = "Zum nächsten Ordner navigieren";
+"toolbar.chooseFolder" = "Ordner wählen";
+"toolbar.chooseFolderHelp" = "Ordner zur Analyse auswählen";
+"toolbar.rescan" = "Neu scannen";
+"toolbar.rescanHelp" = "Aktuellen Ordner erneut scannen";
+"toolbar.sort" = "Sortierung";
+"toolbar.sortHelp" = "Sortierreihenfolge der Dateien und Ordner ändern";
+"toolbar.view" = "Ansicht";
+"toolbar.viewHelp" = "Zwischen Visualisierungsmodi wechseln";
+"toolbar.darkMode" = "Dark Mode";
+"toolbar.darkModeHelp" = "Zu Dark Mode wechseln";
+"toolbar.lightMode" = "Hell";
+"toolbar.lightModeHelp" = "Zu hellem Modus wechseln";
+"toolbar.fontSize" = "Schriftgröße";
+"toolbar.fontSizeHelp" = "Schriftgröße in der Listenansicht vergrößern oder verkleinern";
+"font.xsmall" = "Sehr klein";
+"font.small" = "Klein";
+"font.medium" = "Mittel (Standard)";
+"font.large" = "Groß";
+"font.xlarge" = "Sehr groß";
+
+/* Sort Options */
+"sort.size" = "Größe";
+"sort.name" = "Name";
+"sort.fileCount" = "Dateien";
+"sort.modified" = "Geändert";
+
+/* Scanning */
+"scan.scanning" = "Scanne Dateien...";
+"scan.scanningCount" = "Scanne... %@ Einträge (%@)";
+"scan.scanningFolder" = "Scanne %@...";
+"scan.done" = "Fertig — %@ in %@";
+"scan.calculatingSizes" = "Berechne Größen...";
+"scan.error" = "Fehler: %@";
+"scan.folderError" = "Ordner konnte nicht gelesen werden";
+"scan.hint" = "Je nach Festplattengröße und Anzahl der Dateien\nkann der Scan einige Minuten dauern.";
+
+/* Status Bar */
+"status.files" = "%@ Dateien · %@ Ordner";
+
+/* Empty States */
+"empty.noFolder" = "Kein Ordner ausgewählt";
+"empty.chooseFolder" = "Wähle einen Ordner zum Scannen aus";
+"empty.chooseButton" = "Ordner wählen";
+"empty.selectEntry" = "Wähle einen Eintrag aus der Liste";
+"empty.noData" = "Keine Daten";
+
+/* Open Panel */
+"panel.message" = "Ordner zum Scannen auswählen";
+"panel.prompt" = "Scannen";
+
+/* Overview */
+"overview.contentBySize" = "Inhalt nach Größe";
+"overview.contentByName" = "Inhalt nach Name";
+"overview.contentByFiles" = "Inhalt nach Dateianzahl";
+"overview.contentByDate" = "Inhalt nach Änderungsdatum";
+"overview.disk" = "Festplatte";
+"overview.total" = "Gesamt";
+"overview.used" = "Belegt";
+"overview.free" = "Frei";
+"overview.scanned" = "Gescannt";
+"overview.systemOther" = "System/TM/Andere";
+"overview.unaccounted" = "~%@ belegt durch System, TM-Snapshots, Caches oder ohne Lesezugriff";
+"overview.view" = "Ansicht";
+
+/* Stats */
+"stat.size" = "Größe";
+"stat.files" = "Dateien";
+"stat.folders" = "Ordner";
+"stat.share" = "Anteil";
+
+/* List View */
+"list.size" = "Größe";
+"list.name" = "Name";
+"list.bar" = "Balken";
+"list.files" = "Dateien";
+"list.folders" = "Ordner";
+"list.modified" = "Zuletzt geändert";
+"list.needsFolder" = "Listenansicht benötigt einen Ordner mit Inhalt";
+
+/* Pie Chart */
+"pie.needsFolder" = "Tortendiagramm benötigt einen Ordner mit Inhalt";
+"pie.other" = "Andere (%d)";
+
+/* Treemap */
+"treemap.needsFolder" = "Treemap benötigt einen Ordner mit Inhalt";
+
+/* File Types */
+"fileTypes.title" = "Dateitypen nach Größe";
+
+/* Context Menu */
+"context.revealFinder" = "Im Finder zeigen";
+"context.moveToTrash" = "In den Papierkorb";
+"context.scanThisFolder" = "Nur diesen Ordner scannen";
+"context.openFolder" = "In diesen Ordner wechseln";
+"context.deleteFailed" = "Löschen fehlgeschlagen: %@";
+
+/* Welcome Screen */
+"welcome.title" = "Ordner analysieren";
+"welcome.subtitle" = "Wähle einen Datenträger oder Ordner\num den Speicherplatz zu analysieren.";
+"welcome.volumes" = "DATENTRÄGER";
+"welcome.quickAccess" = "SCHNELLZUGRIFF";
+"welcome.free" = "frei";
+"welcome.home" = "Home";
+"welcome.desktop" = "Schreibtisch";
+"welcome.downloads" = "Downloads";
+"welcome.documents" = "Dokumente";
+"welcome.browse" = "Anderen Ordner wählen…";
+"welcome.resume" = "Zurück zum letzten Scan";
+
+/* Scan Warning */
+"scan.cancel" = "Scan abbrechen";
+"scan.largeTitle" = "Großer Scan-Bereich";
+"scan.largeVolume" = "Datenträger \"%@\" · %@";
+"scan.largeMessage" = "Das Scannen kann je nach Anzahl der Dateien und Verzeichnisgröße mehrere Minuten dauern.";
+"scan.largeConfirm" = "Trotzdem scannen";
+"scan.largeCancel" = "Abbrechen";
+
+/* Edit Mode */
+"mode.readOnly" = "Nur lesen";
+"mode.edit" = "Bearbeiten";
+"mode.editWarning" = "Bearbeitungsmodus";
+"mode.editWarningDetail" = "Dateien und Ordner können gelöscht werden.";
+"mode.editModeOn" = "Bearbeitungsmodus aktivieren — ermöglicht das Löschen von Dateien und Ordnern";
+"mode.editModeOff" = "Bearbeitungsmodus deaktivieren — zurück in den Nur-Lesen-Modus";
+
+/* Delete Confirmation */
+"delete.confirmTitle" = "In den Papierkorb?";
+"delete.confirmMessage" = "\"%@\" (%@) wird in den Papierkorb verschoben.";
+"delete.confirmButton" = "In den Papierkorb";
+"delete.cancel" = "Abbrechen";
+
+/* Folder Info */
+"folderInfo.canCleanUp" = "Kann bereinigt werden";
+
+/* Analyse Tab */
+"tab.analyse" = "Analyse";
+"analyse.diskUsage" = "Festplattenauslastung";
+"analyse.cleanupTitle" = "Bereinigbare Ordner";
+"analyse.cleanable" = "bereinigbar";
+"analyse.topDirs" = "Größte Verzeichnisse";
+"folderInfo.cautionDelete" = "Vorsicht beim Löschen";
+
+/* Old / Stale Files */
+"analyse.oldFiles" = "Zuletzt geändert";
+"analyse.oldFilesHint" = "Größte Dateien, seit über 1 Jahr unverändert";
+"analyse.age1to2" = "1–2 Jahre";
+"analyse.age2to3" = "2–3 Jahre";
+"analyse.age3to5" = "3–5 Jahre";
+"analyse.age5plus" = "5+ Jahre";
+"analyse.files" = "Dateien";
+
+/* Purgeable Space */
+"overview.purgeable" = "Freigebbar";
+"overview.purgeableHint" = "%@ können von macOS automatisch freigegeben werden";
+"overview.trulyFree" = "Wirklich frei";
+"analyse.purgeableTitle" = "Freigebbarer Speicher";
+"analyse.purgeableDesc" = "macOS reserviert diesen Speicher für APFS-Snapshots und Caches. Er wird automatisch freigegeben, wenn das System mehr Speicher benötigt – manuelles Löschen ist nicht möglich.";
+"purgeable.title" = "Freigebbarer Speicher";
+"purgeable.explanation" = "Der freie Speicher beinhaltet bereits den freigebbaren Speicher. macOS kann ihn bei Bedarf automatisch freigeben – er ist kein zusätzlicher freier Speicher über den angezeigten Wert hinaus.";
+"purgeable.sources" = "FREIGEBBARER INHALT UMFASST";
+"purgeable.source1" = "Lokale APFS Time Machine Snapshots";
+"purgeable.source2" = "Lokal gespeicherte iCloud-Dokumente";
+"purgeable.source3" = "App-Caches und temporäre Dateien";
+"purgeable.source4" = "iOS-Gerätesicherungen in iCloud";
+"purgeable.note" = "Freigebbarer Speicher kann nicht manuell gelöscht werden. macOS verwaltet ihn automatisch.";
+
+/* File Detail */
+"detail.fileInfo" = "Datei-Info";
+"detail.fileType" = "Typ";
+"detail.exactSize" = "Größe";
+"detail.onDisk" = "Auf Disk";
+"detail.created" = "Erstellt";
+"detail.modified" = "Geändert";
+"detail.accessed" = "Zuletzt geöffnet";
+
+/* Volume / Disk Detail */
+"detail.volumeInfo" = "Volume-Info";
+"detail.filesystem" = "Dateisystem";
+"detail.encrypted" = "Verschlüsselt";
+"detail.journaled" = "Journalisiert";
+"detail.location" = "Standort";
+"detail.internal" = "Intern";
+"detail.external" = "Extern";
+"detail.ejectable" = "Auswerf­bar";
+"detail.yes" = "Ja";
+"detail.no" = "Nein";
+
+/* Welcome / Locked Disk */
+"welcome.locked" = "Gesperrt";
+"welcome.lockedHint" = "Dieser Datenträger ist verschlüsselt oder nicht zugänglich";
+"scan.volumeLocked" = "Datenträger ist gesperrt oder verschlüsselt – kann nicht gescannt werden";
+
+/* Context Menu */
+"context.diskInfo" = "Disk-Info";
+
+/* Hidden Files Toolbar */
+"disk.layoutButton" = "Disk-Layout";
+"disk.layoutButtonHelp" = "Partitionierung und Volumes der Disk anzeigen";
+"disk.layoutTitle" = "Disk-Layout";
+"disk.loading" = "Disk-Informationen werden geladen…";
+"disk.internal" = "Intern";
+"disk.external" = "Extern";
+"disk.unmounted" = "Nicht eingehängt";
+"disk.colPartition" = "Partition";
+"disk.colName" = "Name";
+"disk.colType" = "Typ";
+"disk.colSize" = "Größe";
+"disk.noPartitionInfo" = "Keine Partitionstabelle gefunden — Laufwerk ist möglicherweise nicht formatiert oder nicht lesbar";
+"disk.section.internal" = "Interne Datenträger";
+"disk.section.external" = "Externe Datenträger";
+"disk.section.images" = "Disk-Images";
+"disk.context.revealImage" = "Disk-Image im Finder anzeigen";
+"disk.context.copyImagePath" = "Image-Pfad kopieren";
+"disk.context.revealVolume" = "Volume im Finder anzeigen";
+"disk.context.openDiskUtility" = "In Festplatten-Dienstprogramm öffnen";
+"disk.context.eject" = "Auswerfen";
+
+/* Berechtigungen */
+"perm.bannerTitle" = "Voller Festplattenzugriff erforderlich";
+"perm.bannerText" = "Ohne vollen Festplattenzugriff können Systemordner und Dateien anderer Benutzer nicht gescannt werden.";
+"perm.openSettings" = "Zugriff erteilen…";
+"perm.openSettingsHelp" = "Systemeinstellungen › Datenschutz & Sicherheit › Voller Festplattenzugriff öffnen";
+"perm.dismiss" = "Schließen";
+"perm.step1" = "Systemeinstellungen › Datenschutz & Sicherheit";
+"perm.step2" = "Voller Festplattenzugriff";
+"perm.step3" = "Schalter für FileSizeScanner aktivieren";
+
+"toolbar.hiddenOn" = "Versteckt: Ein";
+"toolbar.hiddenOff" = "Versteckt: Aus";
+"toolbar.hiddenHelp" = "Dateien und Ordner mit Punkt am Anfang (.) ein- oder ausblenden";
+
+"toolbar.cloudSkipOn" = "Cloud: Überspringen";
+"toolbar.cloudSkipOff" = "Cloud: Scannen";
+"toolbar.cloudSkipHelp" = "Cloud-Ordner (OneDrive, Dropbox, …) beim Scan überspringen, um Synchronisation zu vermeiden";
+"cloud.skipped" = "Cloud – übersprungen";
+
+/* Age Filter */
+"analyse.filterActive" = "Nach Alter gefiltert — anderen Bereich tippen";
+"analyse.filterReset" = "Alle zeigen";
+"analyse.filterResults" = "%d Dateien in diesem Zeitbereich";
+
+/* Stale Files */
+"stale.oldest" = "Älteste zuerst";
+"stale.newest" = "Neueste zuerst";
+"stale.sortBy" = "Sortierung:";
+"stale.nFiles" = "%d Dateien";
+"stale.filtered" = "%d Dateien · %@ freigebar";
+"stale.total" = "%d Dateien älter als 1 Jahr · %@ gesamt";
+"stale.moreFiles" = "… und %d weitere Dateien (Filter oben ändern)";
+"stale.empty" = "Keine Dateien in diesem Zeitbereich gefunden";
+"stale.ageYears" = "vor %d J.";
+"stale.ageYearsMonths" = "vor %d J. %d M.";
+"stale.ageMonths" = "vor %d M.";
