@@ -13,6 +13,10 @@
 
 ---
 
+![FileSizeScanner Overview](screenshots/overview.png)
+
+---
+
 ## Features
 
 - **Multiple Visualizations** — File tree, list view, pie chart, treemap, and file type breakdown
@@ -29,14 +33,39 @@
 
 ---
 
+## Screenshots
+
+### Overview — Disk usage at a glance
+![Overview](screenshots/overview.png)
+
+### List View — Sortable columns with size bars
+![List View](screenshots/list-view.png)
+
+### Pie Chart — Visual breakdown of folder contents
+![Pie Chart](screenshots/pie-chart.png)
+
+---
+
 ## Download
 
 👉 **[Download FileSizeScanner.zip](./FileSizeScanner.zip)**
 
 Unzip, move `FileSizeScanner.app` to your `/Applications` folder, and launch.
 
-> **First launch:** macOS will show an "unverified developer" warning.  
-> Right-click the app → **Open** → click **Open** to confirm. This is only needed once.
+---
+
+## First Launch — macOS Gatekeeper
+
+macOS blocks apps from unidentified developers by default. This is expected for apps distributed outside the App Store. Follow these steps once:
+
+1. Try to open the app — macOS shows a warning and blocks it
+2. Open **System Settings** → **Privacy & Security**
+3. Scroll down to the **Security** section
+4. Click **"Open Anyway"** next to the FileSizeScanner entry
+
+![First Launch Setup](screenshots/first-launch.png)
+
+> This confirmation is only needed once per Mac. After that, the app opens normally.
 
 ---
 
@@ -47,22 +76,14 @@ Unzip, move `FileSizeScanner.app` to your `/Applications` folder, and launch.
 
 ---
 
-## Screenshots
-
-| Overview | List View | Treemap |
-|----------|-----------|---------|
-| ![Overview](screenshots/overview.png) | ![List](screenshots/list.png) | ![Treemap](screenshots/treemap.png) |
-
----
-
 ## Usage
 
-1. Launch FileSizeScanner
-2. Select a folder or volume from the welcome screen
-3. Wait for the scan to complete
-4. Navigate through the tree or switch between visualization tabs
-5. Click any folder to drill down; use Back/Forward to navigate history
-6. Use **Edit Mode** to safely move files to Trash
+1. Launch FileSizeScanner — your Home folder is scanned automatically
+2. Navigate the file tree in the sidebar to drill into folders
+3. Switch tabs to explore different visualizations (Overview, List View, Pie Chart, Treemap, File Types, Largest Files)
+4. Click any folder to select it and see its contents in the detail panel
+5. Use **Edit Mode** (lock icon in toolbar) to safely move files to Trash
+6. Use the **Cloud** button in the toolbar to skip OneDrive/Dropbox during scanning
 
 ---
 
