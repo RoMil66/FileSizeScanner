@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://romil66.github.io/FileSizeScanner/sitemap.xml
